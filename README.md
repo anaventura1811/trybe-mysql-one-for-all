@@ -1,14 +1,7 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto One For All!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
+Projeto desenvolvido como requisito parcial para conclusão do módulo de desenvolvimento backend do curso de Desenvolvimento Web da Trybe. No projeto ***One For All***, utilizei **uma** tabela para revisar e consolidar conceitos sobre modelagem de bancos de dados, identificação de entidades, atributos e relacionamentos, criação de tabelas, aplicação da 1ª, 2ª e 3ª Forma Normal, bem como trabalhar com VIEWs e TRIGGERs.
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
 
 ---
 
@@ -44,7 +37,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ---
 
 # Habilidades
-Neste projeto, verificamos se voce é capaz de:
+Neste projeto, foram desenvolvidas as seguintes habilidades:
 
   * Modelar um banco de dados
 
@@ -62,81 +55,14 @@ Neste projeto, verificamos se voce é capaz de:
 
 ---
 
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre
-[Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-## O que deverá ser desenvolvido
-
-Hoje, no projeto ***One For All***, você usará **uma** tabela para revisar e consolidar **todos** os principais conceitos vistos até o momento.
-
-Você receberá uma tabela não normalizada, a qual deverá ser normalizada e populada, para que você possa executar queries sobre ela com o intuito de encontrar as informações solicitadas.
-
 ## Desenvolvimento
 
-Normalize uma tabela na terceira forma normal e acesse as informações desta tabela através de `queries` utilizando `SQL`.
+Normalização de uma tabela na terceira forma normal e acesso às informações desta tabela através de `queries` utilizando `SQL`.
 
 ## Data de Entrega
 
-  - Serão `1` dias de projeto.
+  - Foi `1` dias de projeto.
   - Data de entrega para avaliação final do projeto: `10/08/2021 - 14:00h`.
-
----
-
-## Instruções para entregar seu projeto:
-
-### Antes de começar a desenvolver
-
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-010-a-mysql-one-for-all.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-010-a-mysql-one-for-all`
-
-2. Instale as dependências
-  * `npm install`
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b seunome-mysql-one-for-all`
-
-4. Para cada exercício você deve criar um novo arquivo sql seguindo a seguinte estrutura:
-  * desafio1.sql, desafio2.sql, desafio3.sql, desafio4.sql, ..., desafioN.sql
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer o arquivo que você alterou como desafio1.sql)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando solução para desafio 1)
-        * `git status` (deve aparecer listado o arquivo _desafio1.sql_ em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto MySQL One For All'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-
-## Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
 
 ---
 
@@ -161,11 +87,7 @@ use SpotifyClone;
 4. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto)
 
 5. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter tanto o arquivo de configurações `desafio1.json` do [primeiro desafio](#desafio-1) quanto os arquivos `desafio1.sql`, `desafio2.sql` e assim por diante até o `desafio11.sql`, que conterão seu código `SQL` de cada desafio, respectivamente.
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
+   
 ---
 
 ## Problema a ser resolvido
